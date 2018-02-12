@@ -18,6 +18,10 @@ if (process.env.NODE_ENV == 'development') {
     baseImgPath = 'http://cangdu.org:8001/img/';
 }
 
+// console.log(process.env.NODE_HOST)
+baseUrl = process.env.NODE_HOST;
+imgBaseUrl = process.env.NODE_HOST + '/img/';
+
 export {
 	baseUrl,
 	routerMode,
