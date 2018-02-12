@@ -20,7 +20,7 @@ if (process.env.NODE_ENV == 'development') {
 
 // console.log(process.env.NODE_HOST)
 baseUrl = process.env.NODE_HOST;
-imgBaseUrl = process.env.NODE_HOST + '/img/';
+baseImgPath = process.env.NODE_HOST + '/img/';
 
 export {
 	baseUrl,
